@@ -38,7 +38,7 @@ class Birthday  {
 
         @Override
     public String toString() {
-    return "Birthday: "  + day + "." + mouth + "." + year + '}';
+    return "Birthday: "  + day + "." + mouth + "." + year;
     }
 
 

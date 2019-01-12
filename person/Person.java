@@ -1,6 +1,6 @@
 package person;
 
-public class Person {
+public class Person implements NewInterface {
 
     private String name;
     private String city;
@@ -37,8 +37,12 @@ public class Person {
     }
 
     @Override
-    public String toString() {
-        return "name= " + name + ", city= " + city + ", birthday= " + birthday;
+    public void getPerson() {
+        System.out.println("Person is: ");
+        System.out.println("name: " + this.name);
+        System.out.println("City: " + this.city);
+        
+        System.out.println("Birthday: " + this.birthday);
     }
 
 }

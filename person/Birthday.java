@@ -1,6 +1,6 @@
 package person;
 
-class Birthday {
+class Birthday  {
 
     private int day;
     private int mouth;
@@ -36,9 +36,11 @@ class Birthday {
         this.year = year;
     }
 
-    @Override
+        @Override
     public String toString() {
-        return day + "." + mouth + "." + year;
+    return "Birthday: "  + day + "." + mouth + "." + year + '}';
     }
+
+
 
 }

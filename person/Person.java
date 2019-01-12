@@ -38,10 +38,10 @@ public class Person implements NewInterface {
 
     @Override
     public void getPerson() {
-        System.out.println("Person is: ");
+
         System.out.println("name: " + this.name);
         System.out.println("City: " + this.city);
-        
+
         System.out.println("Birthday: " + this.birthday);
     }
 
